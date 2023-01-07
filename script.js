@@ -51,13 +51,13 @@ document.getElementById('submit').onclick = function(){
             } else if (trenutno == 'Л'){
                 generated += 'L'
             } else if (trenutno == 'Љ'){
-                generated += 'LJ'
+                generated += 'Lj'
             } else if (trenutno == 'М'){
                 generated += 'M'
             } else if (trenutno == 'Н'){
                 generated += 'N'
             } else if (trenutno == 'Њ'){
-                generated += 'NJ'
+                generated += 'Nj'
             } else if (trenutno == 'О'){
                 generated += 'O'
             } else if (trenutno == 'П'){
@@ -81,7 +81,7 @@ document.getElementById('submit').onclick = function(){
             } else if (trenutno == 'Ч'){
                 generated += 'Č'
             } else if (trenutno == 'Џ'){
-                generated += 'DŽ'
+                generated += 'Dž'
             } else if (trenutno == 'Ш'){
                 generated += 'Š'
             } else if (trenutno == 'а'){
@@ -166,7 +166,7 @@ document.getElementById('submit').onclick = function(){
                 generated += 'Ч'
             } else if (trenutno == 'Ć'){
                 generated += 'Ћ'
-            } else if (trenutno == 'D' && tekst[x + 1] == 'j'){
+            } else if ((trenutno == 'D' && tekst[x + 1] == 'j') | trenutno == "Đ"){
                 generated += 'Ђ'
                 x += 1
             } else if (trenutno == 'D' && tekst[x + 1] == 'ž'){
@@ -228,7 +228,7 @@ document.getElementById('submit').onclick = function(){
                 generated += 'ч'
             } else if (trenutno == 'ć'){
                 generated += 'ћ'
-            } else if (trenutno == 'd' && tekst[x + 1] == 'j'){
+            } else if ((trenutno == 'd' && tekst[x + 1] == 'j') | trenutno == 'đ'){
                 generated += 'ђ'
                 x += 1
             } else if (trenutno == 'd' && tekst[x + 1] == 'ž'){
